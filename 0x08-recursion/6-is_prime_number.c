@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-
+bool is_prime_helper(int n, int divisor);
 bool is_prime_helper(int n, int divisor) {
 	    if (divisor == 1) {
 		            return 1;
@@ -11,7 +11,7 @@ bool is_prime_helper(int n, int divisor) {
 		    return is_prime_helper(n, divisor - 1);
 }
 
-bool is_prime(int n) {
+bool is_prime_number(int n) {
 	    if (n <= 1) {
 		            return 0;
 			        }
