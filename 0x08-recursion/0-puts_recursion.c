@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 /**
  * the name of function is _puts_recursion 
  * and only has one parameter
