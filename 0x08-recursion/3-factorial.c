@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 int factorial(int n){
     int answer;
@@ -10,3 +10,4 @@ int factorial(int n){
     else{
     answer = n * factorial(n-1);
     } return answer;
+}
